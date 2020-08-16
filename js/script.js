@@ -103,7 +103,7 @@ function buildAndShowHomeHTML (categories) {
       // variable's name implies it expects.
       var chosenCategoryShortName = chooseRandomCategory (categories).short_name;
 
-      console.log(chosenCategoryShortName)  //debugging test to know if is generating category randomly every time 
+      console.log('Expect your specials by identifier: '+chosenCategoryShortName)  //debugging test to know if is generating category randomly every time 
 
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
